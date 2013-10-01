@@ -27,6 +27,15 @@ The theme should reference these variables whenever needed.
     
 ## Sample Posts
 
+{% highlight html %}
+<footer>
+    <p>&copy; 2013 Name Lastname
+      with help from <a href="http://jekyllbootstrap.com" target="_blank" title="The Definitive Jekyll Blogging Framework">Jekyll Bootstrap</a>
+      and <a href="http://github.com/dhulihan/hooligan" target="_blank">The Hooligan Theme</a>
+    </p>
+  </footer>
+{% endhighlight %}
+
 This blog contains sample posts which help stage pages and blog data.
 When you don't need the samples anymore just delete the `_posts/core-samples` folder.
 
