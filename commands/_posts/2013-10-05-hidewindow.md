@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: command
 title: "hidewindow"
 description: ""
 category: "commands"

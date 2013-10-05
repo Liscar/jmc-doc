@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: command
 title: "unantisubstitute"
 description: ""
 category: "commands"

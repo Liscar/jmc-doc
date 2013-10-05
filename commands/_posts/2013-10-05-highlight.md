@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: command
 title: "highlight"
 description: ""
 category: "commands"

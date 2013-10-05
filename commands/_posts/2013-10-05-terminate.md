@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: command
 title: "terminate"
 description: ""
 category: "commands"

@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: command
 title: "reloadscripts"
 description: ""
 category: "commands"

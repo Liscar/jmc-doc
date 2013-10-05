@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: command
 title: "substitute"
 description: ""
 category: "commands"
