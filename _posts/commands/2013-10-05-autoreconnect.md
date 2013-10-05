@@ -7,3 +7,5 @@ tags: []
 ---
 {% include JB/setup %}
 
+`#autoreconnect [on|off]`   
+Включает - выключает автоматический реконнект. Можно юзать в [#action](#action).
