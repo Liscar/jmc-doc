@@ -1,0 +1,9 @@
+Syntax: #path
+
+Показывает текущее содержания буфера передвижений.
+
+	Пример:
+#path	
+Покажет что-нибудь вроде: "#Path: n e e e s "
+
+См. также:  #mark,  #mark,   #map,  #pathdir,  #savepath,  #return,  #unpath

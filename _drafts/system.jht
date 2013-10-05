@@ -1,0 +1,14 @@
+#system <cmd>
+  execute <cmd> and redirect output flow to JMC main window
+#tslist
+#ps
+  lists all executed processes with their pIDs
+#tskill    {<pID>|all|last}
+#terminate {<pID>|all|last}
+  kills specified, last process or all processes
+
+ƒобавлено три команды (#system, #ps и #terminate).
+ оманда #system <командна€_строка> запускает процесс, указанный в параметре командна€_строка, и отображает вывод программы пр€мо в окне жабы. ¬ общем, аналогично команде /system в MMC.
+ оманда #ps выводит список запущенных процессов, которые еще не завершили свою работу. Ќомера pid можно использовать в следующей команде.
+ оманда #terminate <pid>|all|last завершает запущенные активные процессы. ≈сли в параметре указан верный pid, то будет остановлен процесс с этим pid, если указать "all", то будут остановлены все процессы, а если - "last", то только последний вызванный.
+¬место #ps и #term можно использовать #tslist и #tskill.

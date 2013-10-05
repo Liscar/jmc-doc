@@ -5,4 +5,8 @@ description: ""
 ---
 {% include JB/setup %}
 
-{{ site.categories["downloads"] }}
+{% for post in site.categories.downloads %}
+  {{ post.date | date: "%d.%m.%Y" }}
+  {{ post.content }}
+  [Обсуждение]({{ BASE_PATH }}{{ post.url }})
+{% endfor %}

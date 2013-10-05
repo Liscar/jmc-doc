@@ -1,0 +1,3 @@
+Syntax: #colon {leave|replace} 
+
+При replace считает при парсинге неэкранированный semicolon (;) как CommandDelimiter 
