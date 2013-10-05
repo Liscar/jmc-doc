@@ -8,7 +8,7 @@ tags: []
 {% include JB/setup %}
 
 `#system <cmd>`  
-  execute <cmd> and redirect output flow to JMC main window  
+  execute `cmd` and redirect output flow to JMC main window  
 `#tslist`  
 `#ps`  
   lists all executed processes with their pIDs
