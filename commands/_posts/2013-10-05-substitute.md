@@ -23,4 +23,4 @@ Syntax:
 "Вася ранил вас" - "ОН РАНИЛ ВАС!"  
 "Стражник тяжело ранил вас" - "ОН РАНИЛ ВАС!"  
 
-См. также: [#antisubstitute](#antisubstitute), [#unsubstitute](#unsubstitute), [#presub](#presub), [#togglesubs](#togglesubs)
+См. также: [#antisubstitute](#antisubstitute), [#unsubstitute](#unsubstitute), [#presub](#presub), [#togglesubs](#togglesubs), [#multisubstitute](#multisubstitute)

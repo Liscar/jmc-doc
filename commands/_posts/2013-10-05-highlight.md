@@ -29,4 +29,4 @@ red, blue, cyan, green, yellow, magenta, white, grey, black, brown, charcoal, li
 `#highlight {yellow} {^%0 дал вам %1 монет}`  
 Теперь строки типа "Вася дал вам 1000 монет" будут показываться желтым цветом.
 
-См. также: [#substitute](#substitute)
+См. также: [#substitute](#substitute), [#multihightlight](#multihightlight)

@@ -9,3 +9,5 @@ tags: []
 
 `#autoreconnect [on|off]`   
 Включает - выключает автоматический реконнект. Можно юзать в [#action](#action).
+
+См. также: [#connect](#connect), [#zap](#zap)
