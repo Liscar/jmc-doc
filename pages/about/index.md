@@ -23,18 +23,18 @@ description: ""
 - Воспроизведение звуковых файлов, запуск любых сторонних приложений
 
 ### Скриншоты:  
-<a class="fancybox" rel="group" title="Окно жабы - приветственный MOTD мира Арды, Окно со списком эффектов" href="{{ ASSET_PATH }}/uploads/jmc_screens/arda1.png">
+<a class="fancybox" rel="group" title="Окно жабы - приветственный MOTD мира Арды, Окно со списком эффектов" href="{{ BASE_PATH }}/uploads/jmc_screens/arda1.png">
     <img src="{{ BASE_PATH }}/uploads/jmc_screens/arda1.png" alt="" width="200" />
 </a>
-<a class="fancybox" rel="group" title="Настройки - подстветки (highlights)" href="{{ ASSET_PATH }}/uploads/jmc_screens/arda2.png">
+<a class="fancybox" rel="group" title="Настройки - подстветки (highlights)" href="{{ BASE_PATH }}/uploads/jmc_screens/arda2.png">
     <img src="{{ BASE_PATH }}/uploads/jmc_screens/arda2.png" alt="" width="200" />
 </a>
-<a class="fancybox" rel="group" title="Мультичаринг несколькими жабами :)" href="{{ ASSET_PATH }}/uploads/jmc_screens/mults.png">
+<a class="fancybox" rel="group" title="Мультичаринг несколькими жабами :)" href="{{ BASE_PATH }}/uploads/jmc_screens/mults.png">
     <img src="{{ BASE_PATH }}/uploads/jmc_screens/mults.png" alt="" width="200" />
 </a>
-<a class="fancybox" rel="group" title="Настройки - триггеры, группы" href="{{ ASSET_PATH }}/uploads/jmc_screens/game_settings_Triggers.png">
+<a class="fancybox" rel="group" title="Настройки - триггеры, группы" href="{{ BASE_PATH }}/uploads/jmc_screens/game_settings_Triggers.png">
     <img src="{{ BASE_PATH }}/uploads/jmc_screens/game_settings_Triggers.png" alt="" width="200" />
 </a>
-<a class="fancybox" rel="group" title="Выбор скриптового движка - JScript, VBScript, Perl" href="{{ ASSET_PATH }}/uploads/jmc_screens/options_script_engines.png">
+<a class="fancybox" rel="group" title="Выбор скриптового движка - JScript, VBScript, Perl" href="{{ BASE_PATH }}/uploads/jmc_screens/options_script_engines.png">
     <img src="{{ BASE_PATH }}/uploads/jmc_screens/options_script_engines.png" alt="" width="200" />
 </a>
