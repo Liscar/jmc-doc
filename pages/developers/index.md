@@ -18,4 +18,6 @@ description: ""
 - [Данные, приходящие в шаблон](http://jekyllbootstrap.com/api/template-data-api.html)
 - Компоненты, кнопки, менюшки - все что можно взять от [Bootstrap](http://getbootstrap.com/2.3.2/components.html)
 
+---
+
 {% include JB/comments %}
