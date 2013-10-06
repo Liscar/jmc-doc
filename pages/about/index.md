@@ -23,8 +23,18 @@ description: ""
 - Воспроизведение звуковых файлов, запуск любых сторонних приложений
 
 ### Скриншоты:  
-<a class="fancybox" rel="group" title="Окно жабы - приветственный MOTD мира Арды, Окно со списком эффектов" href="/uploads/jmc_screens/arda1.png"><img src="/uploads/jmc_screens/arda1.png" alt="" width="200" /></a>
-<a class="fancybox" rel="group" title="Настройки - подстветки (highlights)" href="/uploads/jmc_screens/arda2.png"><img src="/uploads/jmc_screens/arda2.png" alt="" width="200" /></a>
-<a class="fancybox" rel="group" title="Мультичаринг несколькими жабами :)" href="/uploads/jmc_screens/mults.png"><img src="/uploads/jmc_screens/mults.png" alt="" width="200" /></a>
-<a class="fancybox" rel="group" title="Настройки - триггеры, группы" href="/uploads/jmc_screens/game_settings_Triggers.png"><img src="/uploads/jmc_screens/game_settings_Triggers.png" alt="" width="200" /></a>
-<a class="fancybox" rel="group" title="Выбор скриптового движка - JScript, VBScript, Perl" href="/uploads/jmc_screens/options_script_engines.png"><img src="/uploads/jmc_screens/options_script_engines.png" alt="" width="200" /></a>
+<a class="fancybox" rel="group" title="Окно жабы - приветственный MOTD мира Арды, Окно со списком эффектов" href="{{ ASSET_PATH }}/uploads/jmc_screens/arda1.png">
+    <img src="{{ ASSET_PATH }}/uploads/jmc_screens/arda1.png" alt="" width="200" />
+</a>
+<a class="fancybox" rel="group" title="Настройки - подстветки (highlights)" href="{{ ASSET_PATH }}/uploads/jmc_screens/arda2.png">
+    <img src="{{ ASSET_PATH }}/uploads/jmc_screens/arda2.png" alt="" width="200" />
+</a>
+<a class="fancybox" rel="group" title="Мультичаринг несколькими жабами :)" href="{{ ASSET_PATH }}/uploads/jmc_screens/mults.png">
+    <img src="{{ ASSET_PATH }}/uploads/jmc_screens/mults.png" alt="" width="200" />
+</a>
+<a class="fancybox" rel="group" title="Настройки - триггеры, группы" href="{{ ASSET_PATH }}/uploads/jmc_screens/game_settings_Triggers.png">
+    <img src="{{ ASSET_PATH }}/uploads/jmc_screens/game_settings_Triggers.png" alt="" width="200" />
+</a>
+<a class="fancybox" rel="group" title="Выбор скриптового движка - JScript, VBScript, Perl" href="{{ ASSET_PATH }}/uploads/jmc_screens/options_script_engines.png">
+    <img src="{{ ASSET_PATH }}/uploads/jmc_screens/options_script_engines.png" alt="" width="200" />
+</a>
