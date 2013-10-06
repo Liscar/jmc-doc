@@ -2,7 +2,7 @@ body {
     margin: 0;
     padding: 0;
     background: #151515 url("../images/bkg.png") 0 0;
-    color: #999;
+    color: #bbb;
     line-height: 1.5;
     font: 14px Monaco, "Bitstream Vera Sans Mono", "Lucida Console", Terminal, monospace;
 }
@@ -23,8 +23,8 @@ h1, h2, h3, h4, h5, h6 {
     margin: 0 0 20px;
 }
 
-li {
-    line-height: 1.5;
+li, p {
+    line-height: 1.6;
 }
 
 code {
@@ -119,6 +119,15 @@ h1, h2, h3, h4, h5, h6 {
     text-shadow: 0 1px 1px rgba(0, 0, 0, 0.1), 0 0 5px rgba(181, 232, 83, 0.1), 0 0 10px rgba(181, 232, 83, 0.1);
 }
 
+h1.commands,
+h2.commands,
+h3.commands,
+h4.commands,
+h5.commands,
+h6.commands {
+    color: #bbb;
+}
+
 #main_content h1 {
     font-size: 30px;
 }
@@ -144,7 +153,7 @@ h1, h2, h3, h4, h5, h6 {
 #main_content h6 {
     font-size: 12px;
     text-transform: uppercase;
-    color: #999;
+    color: #bbb;
     margin: 0 0 5px 0;
 }
 
@@ -228,7 +237,7 @@ hr {
     border-bottom: 2px solid rgba(0, 0, 0, 0.7);
     border-top: 2px solid rgba(0, 0, 0, 1);
 
-    color: #999;
+    color: #bbb;
 
     font-family: Helvetica, Arial, sans-serif;
     font-weight: bold;
