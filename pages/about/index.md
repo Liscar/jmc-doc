@@ -38,3 +38,6 @@ description: ""
 <a class="fancybox" rel="group" title="Выбор скриптового движка - JScript, VBScript, Perl" href="{{ BASE_PATH }}/uploads/jmc_screens/options_script_engines.png">
     <img src="{{ BASE_PATH }}/uploads/jmc_screens/options_script_engines.png" alt="" width="200" />
 </a>
+
+
+{% include JB/comments %}

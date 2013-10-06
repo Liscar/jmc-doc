@@ -13,3 +13,5 @@ description: ""
 ## Мады
 - [Арда - мир, созданный по мотивам Толкиена](http://arda.pp.ru/)
 - [Dangerous Fantasy 2 - мад в стиле кибер-панк](http://df2.ru/)
+
+{% include JB/comments %}
