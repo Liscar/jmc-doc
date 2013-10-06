@@ -1,3 +1,0 @@
-#wlog <окно> <файл> [append|overwrite|html]  
-
-Создает лог для окна.

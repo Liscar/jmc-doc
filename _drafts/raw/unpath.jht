@@ -1,5 +1,0 @@
-Syntax: #unpath
-
-Удаляет последнюю запись из текущего буфера пути.
-
-См. также:  #mark,  #mark,   #path,  #pathdir,  #savepath,  #return,  #map
