@@ -1,32 +1,54 @@
 ---
-published: false
+layout: article
+title: "Сохранение переменных скриптов в отдельный файл"
+category: "articles"
+description: ""
 ---
+{% include JB/setup %}
 
-# Сохранение переменных скриптов в отдельном файле
+# Сохранение переменных скриптов в отдельный файл
+
+При открытии jmc создаёт новый контект javascript, при этом не сохраняя переменные, которые были объявлены до этого.  
+
+Для того, чтобы сохранять какие-то важные значения, мы написали обёртку для загрузки/сохранения переменных в файл.  
+
+Синтаксис использования:  
+{% highlight javascript %}
+// Сохранить значение переменной:
+CONFIG.set('HP', 350);
+
+// Загружает весь конфиг и все глобальные переменные
+CONFIG.load();
+
+// Возвращает значение переменной ManaPoints
+CONFIG.get('ManaPoints');
+{% endhighlight %}
+
+Весь исходный код:
 
 {% highlight javascript %}
 /**
  * Singleton объект конфига
  */
 var CONFIG = {
-	data: {}
+    data: {}
 };
 
 /**
  * Устанавливает значение переменной variable, при этом делая её глобальной и сохраняет конфиг в файл
  */
 CONFIG.set = function(variable, value) {
-	this.data[variable] = value;
+    this.data[variable] = value;
     this.extract(variable, value);
-	this.save();
-	jmc.showme(D.CYAN + "Variable '" + L.GRAY + variable + D.CYAN + "' is set to '" + L.GRAY + JSON.stringify(value) + D.CYAN + "'." + L.NORMAL);
+    this.save();
+    jmc.showme(D.CYAN + "Variable '" + L.GRAY + variable + D.CYAN + "' is set to '" + L.GRAY + JSON.stringify(value) + D.CYAN + "'." + L.NORMAL);
 };
 
 /**
  * Возвращает значение переменной variable
  */
 CONFIG.get = function(variable) {
-	return this.data[variable] || '';
+    return this.data[variable] || '';
 };
 
 /**
@@ -40,8 +62,8 @@ CONFIG.save = function() {
  * Загружает конфиг и все глобальные переменные
  */
 CONFIG.load = function() {
-	include('settings\\configdata.js');
-	this.extractAll();
+    include('settings\\configdata.js');
+    this.extractAll();
 };
 
 /**
@@ -57,28 +79,27 @@ CONFIG.extract = function(variable, value) {
 CONFIG.extractAll = function(variable, value) {
     for (var i in this.data) {
         this.extract(i, this.get(i));
-	}
+    }
 };
 
 /*
  * Записывает текстовую строчку в указанный файл
  */
 function write2file(filename, textline, clearfile) {
-	if (fso.FileExists(filename)) {
-		if (clearfile) {
-			var file = fso.DeleteFile(filename);
-			var file = fso.CreateTextFile(filename, true);
-		} else {
-			var file = fso.OpenTextFile(filename, 8);
-		}
-	} else {
-		var file = fso.CreateTextFile(filename, true);
-	}
+    if (fso.FileExists(filename)) {
+        if (clearfile) {
+            var file = fso.DeleteFile(filename);
+            var file = fso.CreateTextFile(filename, true);
+        } else {
+            var file = fso.OpenTextFile(filename, 8);
+        }
+    } else {
+        var file = fso.CreateTextFile(filename, true);
+    }
 
-	file.WriteLine(textline);
-	file.Close();
-	delete file;
+    file.WriteLine(textline);
+    file.Close();
+    delete file;
 }
-
 {% endhighlight %}
 

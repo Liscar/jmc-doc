@@ -77,6 +77,7 @@
                             <span class="hidden-desktop">Github</span>
                         </a>
                     </li>
+                    <!--
                     <li class="divider-vertical"></li>
                     <li>
                         <a href="http://prose.io/#nerevar/jmc-doc/edit/gh-pages/{{ page.path }}" class="zocial eventbrite icon"
@@ -84,6 +85,7 @@
                             <span class="hidden-desktop">Edit</span>
                         </a>
                     </li>
+                    -->
                     {% if site.author.googleplus %}
                     <li>
                         <a href="https://plus.google.com/{{ site.author.googleplus }}" class="zocial googleplus icon"
@@ -147,6 +149,16 @@
 <script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
 <script>window.jQuery || document.write('<script src="{{ ASSET_PATH }}/js/jquery.min.js"><\/script>')</script>
 <script src="{{ ASSET_PATH }}/bootstrap/js/bootstrap.min.js"></script>
+
+<!-- fancybox -->
+<link rel="stylesheet" href="{{ ASSET_PATH }}/fancybox/source/jquery.fancybox.css?v=2.1.5" type="text/css" media="screen" />
+<script type="text/javascript" src="{{ ASSET_PATH }}/fancybox/source/jquery.fancybox.pack.js?v=2.1.5"></script>
+
+<script type="text/javascript">
+    $(document).ready(function() {
+        $(".fancybox").fancybox();
+    });
+</script>
 
 {% include JB/analytics %}
 </body>

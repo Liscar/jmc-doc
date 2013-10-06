@@ -4,7 +4,7 @@ title: JMC - Jaba Mud Client
 ---
 {% include JB/setup %}
 
-#### Клиент, предназначенный для игр в многопользовательские миры (MUD) - онлайн игры в интернет
+### Клиент, предназначенный для игр в многопользовательские миры (MUD) - онлайн игры в интернет
 
 #### Основные возможности программы:
 
@@ -24,3 +24,10 @@ title: JMC - Jaba Mud Client
 </section>
 
 ---
+
+### Скриншоты:  
+<a class="fancybox" rel="group" title="Окно жабы - приветственный MOTD мира Арды, Окно со списком эффектов" href="/uploads/jmc_screens/arda1.png"><img src="/uploads/jmc_screens/arda1.png" alt="" width="200" /></a>
+<a class="fancybox" rel="group" title="Настройки - подстветки (highlights)" href="/uploads/jmc_screens/arda2.png"><img src="/uploads/jmc_screens/arda2.png" alt="" width="200" /></a>
+<a class="fancybox" rel="group" title="Мультичаринг несколькими жабами :)" href="/uploads/jmc_screens/mults.png"><img src="/uploads/jmc_screens/mults.png" alt="" width="200" /></a>
+<a class="fancybox" rel="group" title="Настройки - триггеры, группы" href="/uploads/jmc_screens/game_settings_Triggers.png"><img src="/uploads/jmc_screens/game_settings_Triggers.png" alt="" width="200" /></a>
+<a class="fancybox" rel="group" title="Выбор скриптового движка - JScript, VBScript, Perl" href="/uploads/jmc_screens/options_script_engines.png"><img src="/uploads/jmc_screens/options_script_engines.png" alt="" width="200" /></a>
