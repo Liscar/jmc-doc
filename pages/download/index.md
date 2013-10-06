@@ -9,4 +9,6 @@ description: ""
   {{ post.date | date: "%d.%m.%Y" }}
   {{ post.content }}
   [Обсуждение]({{ BASE_PATH }}{{ post.url }})
+
+---
 {% endfor %}

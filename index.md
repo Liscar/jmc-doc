@@ -4,9 +4,9 @@ title: JMC - Jaba Mud Client
 ---
 {% include JB/setup %}
 
-## Jaba Mud Client - это программа, предназначенная для игр в многопользовательские миры - онлайновые игры в интернет
+#### Клиент, предназначенный для игр в многопользовательские миры (MUD) - онлайн игры в интернет
 
-## Основные возможности программы:
+#### Основные возможности программы:
 
 - Легковесный клиент, не требующий установки для Windows XP/Windows Vista/Windows 7
 - Красивые HTML логи с возможностью поделиться в интернете
@@ -18,3 +18,9 @@ title: JMC - Jaba Mud Client
 - Поддержка многочисленных "профайлов" для разделения групп настроек
 - Воспроизведение звуковых файлов, запуск любых сторонних приложений
 	
+<section id="downloads">
+  <a href="http://nerevar.github.io/jmc/releases/jmc3600.zip" class="btn btn-jmc"><span class="icon"></span>Скачать последнюю версию 3.6</a>
+  <a href="https://github.com/nerevar/jmc" class="btn btn-github"><span class="icon"></span>Исходный код - GitHub</a>
+</section>
+
+---

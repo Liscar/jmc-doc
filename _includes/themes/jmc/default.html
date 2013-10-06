@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
     <meta charset="utf-8">
     <title>
@@ -42,7 +42,11 @@
                 <span class="icon-bar"></span>
             </a>
 
-            <a class="brand" href="{{ HOME_PATH }}">{{ site.title }}</a>
+            <a href="{{ HOME_PATH }}">
+                <img class="logo" src="{{ ASSET_PATH }}/images/icon.png" alt="Jaba Mud Client" />
+            </a>
+            
+            <a class="brand" href="{{ HOME_PATH }}">JMC</a>
 
             <div class="nav-collapse">
                 <ul class="nav">
@@ -67,14 +71,19 @@
                 </ul>
                 <ul class="nav pull-right social visible-desktop">
                     <li class="divider-vertical"></li>
-                    {% if site.author.github %}
                     <li>
-                        <a href="https://github.com/{{ site.author.github }}" class="zocial github icon"
-                           target="_blank">
+                        <a href="https://github.com/nerevar/jmc-doc/blob/gh-pages/{{ page.path }}" class="zocial github icon"
+                           target="_blank" title="Открыть на Github">
                             <span class="hidden-desktop">Github</span>
                         </a>
                     </li>
-                    {% endif %}
+                    <li class="divider-vertical"></li>
+                    <li>
+                        <a href="http://prose.io/#nerevar/jmc-doc/edit/gh-pages/{{ page.path }}" class="zocial eventbrite icon"
+                           target="_blank" title="Редактировать через prose.io">
+                            <span class="hidden-desktop">Edit</span>
+                        </a>
+                    </li>
                     {% if site.author.googleplus %}
                     <li>
                         <a href="https://plus.google.com/{{ site.author.googleplus }}" class="zocial googleplus icon"
@@ -126,12 +135,12 @@
         {{ content }}
     </div>
 
+    <!-- 
     <footer>
-        <p>&copy; {{ site.time | date: '%Y' }} {{ site.author.name }}
-            with help from <a href="http://jekyllbootstrap.com" target="_blank"
-                              title="The Definitive Jekyll Blogging Framework">Jekyll Bootstrap</a>
+        <p>&copy; {{ site.time | date: '%Y' }} jmcdev
         </p>
     </footer>
+    -->
 </div>
 <!-- /container -->
 

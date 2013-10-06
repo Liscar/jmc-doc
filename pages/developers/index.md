@@ -16,3 +16,4 @@ description: ""
 - [StackOverflow Markdown help](http://stackoverflow.com/editing-help)
 - [Шаблонизатор Liquid](https://github.com/shopify/liquid/wiki/liquid-for-designers)
 - [Данные, приходящие в шаблон](http://jekyllbootstrap.com/api/template-data-api.html)
+- Компоненты, кнопки, менюшки - все что можно взять от [Bootstrap](http://getbootstrap.com/2.3.2/components.html)
